@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Загрузка файлов</title>
+  <link rel="shortcut icon" href="images/upload.png" type="image/x-icon">
+  <style>
+   .text {
+    text-align:  center;
+    color: green;
+    font: 2em Arial, sans-serif;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+   }
+   .text2 {
+    text-align:  center;
+    color: red;
+    font: 2em Arial, sans-serif;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+   }
+  </style>
+ </head>
+ <body bgcolor="#000" background="images/catblur.jpg">
+     <div class="text">
+         <h2>Сюда Вы можете загрузить фото животных.</h2>
+         <h2>После модерации фото будет загружено на сайт!</h2>
+         <p>Тут можно загрузить фото животных</p>
+      </div>
+      <div clac="text2">
+         <form action="C:/Users/Admin/Downloads/neocities-moreanimals/neocities-moreanimals/upload.php" enctype="multipart/form-data" method="post">
+         <p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+         <input type="submit" value="Отправить"></p>
+         <a href="index.html">Главная страница</a>
+     </div>
+ </body>
+</html>
