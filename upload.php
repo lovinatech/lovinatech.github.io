@@ -12,7 +12,7 @@ $deny = array(
 );
  
 // Директория куда будут загружаться файлы.
-$path = __DIR__ . 'C:/Users/Admin/Downloads/neocities-moreanimals/neocities-moreanimals/uploads/';
+$path = __DIR__ . '/uploads/';
  
 if (isset($_FILES[$input_name])) {
 	// Проверим директорию для загрузки.
